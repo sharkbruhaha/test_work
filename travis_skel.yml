@@ -60,14 +60,14 @@ jobs:
       name: 'Puppet 5.5.10 (SIMP 6.3, PE 2018.1)'
       env: PUPPET_VERSION="5.5.10"
       script:
-        - bundle exec rake spec
+        - bundle exec rake spec_parallel
 
     - stage: spec
       name: 'Latest Puppet 6.x'
       rvm: 2.5.1
       env: PUPPET_VERSION="~> 6"
       script:
-        - bundle exec rake spec
+        - bundle exec rake spec_parallel
 
     # Uncomment the following for deployment tasks and set 'secure' in both
     # sections appropriately
