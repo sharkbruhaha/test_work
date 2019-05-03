@@ -1,0 +1,2 @@
+cp gitlab-ci_skel.yml pupmod-*/.gitlab-ci.yml;
+cp travis_skel.yml pupmod-*/.travis.yml;
