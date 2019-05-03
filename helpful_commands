@@ -1,0 +1,1 @@
+echo pupmod-simp-*/.gitlab-ci.yml | xargs -n 1 cp -v gitlab-ci_skel.yml
